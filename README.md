@@ -5,9 +5,6 @@ A Telegram Python bot running on python3 forked with saitama with a sqlalchemy d
 
 Can be found on telegram as [Lazy](https://t.me/TheMizukiBot)
 
-The Support group can be reached out to at [Infinity JE](https://t.me/InfinityJEOT), where you can ask for help , discover new features, report bugs, and stay in the loop whenever a new update is available. 
-
-
 Updates channel as at [
 Lazy Support](https://t.me/lazySupport)
 
@@ -21,7 +18,7 @@ Lazy Support](https://t.me/lazySupport)
 ## How to setup on Heroku 
 For starters click on this button 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/netmasterlk/
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/netmasterlk/Lazy)
 Lazy)
 ## Credits
 The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)
