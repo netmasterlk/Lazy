@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/Mizuki
-RUN git clone -b shiken https://github.com/ImJanindu/Mizuki /root/Mizuki
-WORKDIR /root/Mizuki
+# Copy Python Requirements to /root/SaitamaRobot
+RUN git clone -b shiken https://github.com/AnimeKaizoku/SaitamaRobot /root/SaitamaRobot
+WORKDIR /root/SaitamaRobot
 
-#Copy config file to /root/Mizuki/Mizuki
-COPY ./Mizuki/sample_config.py ./Mizuki/config.py* /root/Mizuki/Mizuki/
+#Copy config file to /root/SaitamaRobot/SaitamaRobot
+COPY ./SaitamaRobot/sample_config.py ./SaitamaRobot/config.py* /root/SaitamaRobot/SaitamaRobot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","Mizuki"]
+CMD ["python3","-m","SaitamaRobot"]

@@ -1,4 +1,4 @@
-![Mizuki](https://telegra.ph/file/c69f4aab9d7e01f815b4a.jpg)
+![Lazy](https://telegra.ph/file/c69f4aab9d7e01f815b4a.jpg)
 # Lazy Bot
 
 A Telegram Python bot running on python3 forked with saitama with a sqlalchemy database and an entirely themed persona to make fun and good management for you in your groups.
